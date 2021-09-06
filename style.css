@@ -1,0 +1,48 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+*, *::before, *::after {
+   box-sizing: border-box;
+}
+
+body{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 19px;
+   color: #AE7C78;
+   background: #E5E5E5;
+}
+
+a{
+   color: #AE7C78;
+   text-decoration: none;
+}
+
+ul{
+   list-style: none;
+}
+
+.container{
+   max-width: 1220px;
+   padding: 0 10px;
+   margin: 0 auto;
+}
+
+.title{
+   font-family: 'Playfair Display', serif;
+   font-weight: bold;
+   font-size: 36px;
+   line-height: 48px;
+   letter-spacing: 0.02em;
+}
+
+.author__title{
+   font-family: 'Playfair Display', serif;
+   font-size: 44px;
+   line-height: 59px;
+}
+
+.author__title span{
+   font-style: italic;
+}
